@@ -1,0 +1,138 @@
+
+*{
+    margin: 0;
+    font-family: 'Mydriad Pro', sans-serif
+}
+@import url("https://typekit.net");
+
+.interface{
+    background-color:#2ba2e7;
+    width: 400px;
+    height:400px;  
+    margin-left: 38%;
+    margin-top: 15%;
+    border-radius: 30px;
+    padding: 15px;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    padding: 30px;
+}
+#img_log{
+    padding-left: 80px;
+}
+
+button{
+    border-color: #83d1ff;
+    width: 120px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 50px;
+    background-color: #83d1ff;
+}
+.interface#login_adm{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;              
+        z-index: 900;         
+        background-color:#2ba2e7;
+        width: 400px;
+        height:400px;  
+        margin-left: 38%;
+        margin-top: 15%;
+        border-radius: 30px;
+        padding: 15px;
+}
+
+#voltar{
+    width: 120px;
+    margin: 50px;
+    background-color: #83d1ff;
+}
+
+#username{
+    width: 200px;
+    margin-left: 46px;
+    margin-bottom: 5px;
+}
+#password{
+    width: 200px;
+    margin-left: 60px;
+}
+#username_user{
+    width: 200px;
+    margin-left: 46px;
+    margin-bottom: 5px;
+}
+#password_user{
+    width: 200px;
+    margin-left: 50px;
+}
+
+.interface#login_adm.pressionado{
+        display: block;
+    }
+
+
+.interface#login_usuario{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;              
+        z-index: 999;         
+        background-color:#2ba2e7;
+        width: 400px;
+        height:400px;  
+        margin-left: 38%;
+        margin-top: 15%;
+        border-radius: 30px;
+        padding: 15px;
+}
+
+.interface#login_usuario.selecionado{
+    display: block;
+}
+#criar_usuario{
+    margin-top: 0;
+}
+#nome_completo{
+
+    margin: 5px;
+    margin-left: 10px;
+
+}
+#criacao{
+    margin-top: 10px;
+}
+#user_criacao{
+
+    margin-left: 70px;
+    margin-bottom: 5px;
+}
+#senha_criacao{
+    margin-left: 79px;
+    
+}
+#tela_criacao {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;              
+    z-index: 1200;
+    background-color: #2ba2e7;
+    width: 400px;
+    height: 400px;  
+    margin-left: 38%;
+    margin-top: 15%;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+#tela_criacao.clicado {
+    display: block;
+}
+
+
+

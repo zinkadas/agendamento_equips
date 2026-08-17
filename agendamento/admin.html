@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel Administrativo</title>
+  <link rel="stylesheet" href="estilo_adm.css">
+</head>
+<body>
+
+<aside class="abas">
+    <h1 class="titulo">Administração</h1>
+    <nav>
+        <div class="abas" id="navegador">
+            <button type="button" class="botoes" id="painel_controle_botao">Painél de Controle</button>
+            <br>
+            <button type="button" class="botoes" id="gerenciador_botao">Gerenciamento</button>
+            <br>
+            <button type="button" class="botoes" id="tablets_botao">Tablets</button>
+        </div>
+    </nav>
+</aside>
+
+<aside class="informacoes" id="tela_painel">
+    <div class="painel_controle">
+        <h1 class="titulo">Painél de Controle</h1>
+        <table class="tabela" id="tabela_controle">
+            <thead>
+                <tr>
+                    <th class="nome_coluna">Nome</th>
+                    <th class="nome_coluna">Data</th>
+                    <th class="nome_coluna">Check-in</th>
+                    <th class="nome_coluna">Check-out</th>
+                </tr>
+            </thead>
+            <tbody id="dados_reservas">
+                <!-- O Mocking do JavaScript vai preencher as linhas aqui -->
+            </tbody>
+        </table>
+    </div> 
+</aside>
+
+<aside class="informacoes" id="tela_gerenciamento">
+    <div class="gerenciamento_conteudo">
+        <h1 class="titulo">Gerenciamento</h1>
+        <table class="tabela" id="tabela_gerenciamento">
+            <thead>
+                <tr>
+                    <th class="nome_coluna">Nome</th>
+                    <th class="nome_coluna">Usuário</th>
+                    <th class="nome_coluna">Senha</th>
+                </tr>
+            </thead>
+            <tbody id="dados_professores">
+                <!-- Espaço reservado para listar os professores cadastrados futuramente -->
+            </tbody>
+        </table>
+        <div class="procura" >
+        <p>Digite o "Usuário" que deseja excluir</p>
+        <input type="text" id="procurar_redefinir">
+        <button type="button" id="botao_redefinir">Excluir</button>
+        </div>
+    </div>
+</aside>
+
+<aside class="informacoes" id="tela_tablets">
+  <div class="tablets_conteudo"> 
+    <h1 class="titulo">Visão Geral Tablets</h1>
+      <table class="tabela" id="tabela_tablets">
+        <thead>
+          <tr>
+              <th class="nome_coluna">Nome</th>
+              <th class="nome_coluna">Numeração dos Tablets</th>
+              <th class="nome_coluna">Quantidade de Tablets</th>
+          </tr>
+        </thead>
+        <tbody id="dados_tablets">
+        <!-- -->
+        </tbody>
+      </table>
+      <div class="procura" >
+        <p>Digite o "Nome" que devolveu os tablets</p>
+        <input type="text" id="procurar_devolver">
+        <button type="button" id="botao_devolver">Devolvido</button>
+        </div>
+  </div>
+</aside>
+
+<script src="ads.js" defer></script>
+</body>
+</html>

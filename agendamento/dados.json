@@ -1,0 +1,89 @@
+{
+  "administradores": [
+    {
+      "usuario": "nicolas",
+      "senha": "rodrigo"
+    }
+  ],
+  "agendamentos": [
+    {
+      "calendario": "2026-07-15",
+      "checkin": "08:00",
+      "checkout": "09:30",
+      "nome": "xNicolas"
+    },
+    {
+      "calendario": "2026-07-16",
+      "checkin": "10:00",
+      "checkout": "11:30",
+      "nome": "Mariana"
+    },
+    {
+      "calendario": "2026-07-16",
+      "checkin": "12:00",
+      "checkout": "14:30",
+      "nome": "Lurdes"
+    },
+    {
+      "calendario": "2026-07-16",
+      "checkin": "15:00",
+      "checkout": "16:30",
+      "nome": "Camila"
+    },
+    {
+      "calendario": "2026-07-21",
+      "checkin": "09:30",
+      "checkout": "11:00",
+      "tablets_selecionados": [1, 2],
+      "qntd_tablets": 2,
+      "nome": "Professor Nicolas"
+    },
+    {
+      "calendario": "2026-07-22",
+      "checkin": "14:00",
+      "checkout": "15:30",
+      "tablets_selecionados": [5, 6, 7],
+      "qntd_tablets": 3,
+      "nome": "Professora Mariana"
+    }
+  ],
+  "professores": [
+    {
+      "nome_completo": "Ricardo Alves Martins",
+      "usuario": "ricardo.alves",
+      "senha": "123456"
+    },
+    {
+      "nome_completo": "Fernanda Costa Souza",
+      "usuario": "fernanda.costa",
+      "senha": "123456"
+    },
+    {
+      "nome_completo": "Olavo de Carvalho",
+      "usuario": "olavo.carvalho",
+      "senha": "123456"
+    }
+  ],
+  "tablets": [
+    {
+      "usuario": "Fernando de Noronha",
+      "qntd_tablets": 2,
+      "tablets_selecionados": [1, 2]
+    },
+    {
+      "usuario": "Nicolas Rodrigo",
+      "qntd_tablets": 2,
+      "tablets_selecionados": [3, 4]
+    },
+    {
+      "usuario": "Roberto",
+      "qntd_tablets": 5,
+      "tablets_selecionados": [5, 6, 7, 8, 9]
+    },
+    {
+      "usuario": "Hariel",
+      "qntd_tablets": 1,
+      "tablets_selecionados": [10]
+    }
+  ]
+}

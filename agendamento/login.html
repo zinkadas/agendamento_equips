@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_login.css">
+    <title>login agendamento</title>
+</head>
+<body>
+    <div class="interface" id="usuario_ou_adm">
+        <img src="Colegio_assuncao_logo.png" id="img_log">
+        <h1>Login</h1>
+        <button type="button" id="user">Usuário</button>
+        <button type="button" id="admin">Admin</button>
+    </div>
+    
+    <div class="interface" id="login_adm">
+         <img src="Colegio_assuncao_logo.png" id="img_log">
+        <h1>Login</h1>
+        <p class="linhas">Usuário: <input type="text" id="username"></p>
+        <p class="linhas">Senha:<input type="text" id="password"></p>
+        <button type="button" id="enviar_dados">Acessar</button>
+        <button type="button" id="voltar">Voltar</button>
+    </div>
+
+    <div class="interface" id="login_usuario">
+        <img src="Colegio_assuncao_logo.png" id="img_log">
+        <h1>Login ou Signup</h1>
+        <p class="linhas">Usuário <input type="text" id="username_user"></p>
+        <p class="linhas">Senha: <input type="text" id="password_user"></p>
+        <button type="button" id="enviar_dados_user">Acessar</button>
+        <button type="button" id="voltar_user">Voltar</button>
+        <button type="button" id="criacao">Criar usuário</button>
+    </div>
+
+
+    <div class="interface" id="tela_criacao">
+        <img src="Colegio_assuncao_logo.png" id="img_log">
+        <h1>Crie seu usuário</h1>
+        <p class="linhas">Nome Completo: <input type="text" id="nome_completo"></p>
+        <p class="linhas">Usuário: <input type="text" id="user_criacao"></p>
+        <p class="linhas">Senha: <input type="text" id="senha_criacao"></p>
+        <button type="button" id="criar_usuario"> Criar</button>
+        <button type="button" id="voltar_criacao">Voltar</button>
+    </div>
+
+
+    
+<script src="login.js" defer></script>
+</body>
+</html>

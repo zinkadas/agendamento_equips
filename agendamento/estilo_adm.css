@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+}
+.abas{
+  position: fixed;
+  top: 10;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 100vh;
+  background-color: #2285bd
+}
+
+.titulo{
+  padding-top: 50px;
+}
+#navegador{
+  width: 300px;
+}
+
+.botoes{
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 200px;
+  height: 40px;
+}
+.informacoes{
+  margin-left: 500px;
+}
+
+.titulo{
+  text-align: center;
+}
+
+.tabela{
+  background-color: #39b3fa;
+  margin-top: 50px;
+  margin-left: 130px;
+  border: 2px solid black;
+  text-align: center;
+  width: 630px;
+}
+
+#tela_gerenciamento {
+  display: none;
+}
+
+#tela_painel {
+  display: block;
+}
+
+#tela_painel.ativo {
+  display: block !important;
+}
+
+#tela_gerenciamento.ativo {
+  display: block !important;
+}
+
+#tela_tablets{
+  display: none;
+}
+
+#tela_tablets.aberta{
+  display: block !important; 
+}
+
+.nome_coluna{
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.procura{
+  position: fixed;
+  right: 18%;
+  bottom: 83%;
+}

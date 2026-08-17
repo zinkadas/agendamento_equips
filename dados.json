@@ -1,0 +1,67 @@
+{
+    "agendamentos": [
+        {
+            "calendario": null,
+            "checkin": null,
+            "checkout": null,
+            "tablets_selecionados": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "qntd_tablets": 4,
+            "nome": null
+        },
+        {
+            "calendario": null,
+            "checkin": null,
+            "checkout": null,
+            "tablets_selecionados": [
+                1,
+                3,
+                2,
+                4
+            ],
+            "qntd_tablets": 4,
+            "nome": null
+        },
+        {
+            "calendario": null,
+            "checkin": null,
+            "checkout": null,
+            "tablets_selecionados": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                14,
+                15
+            ],
+            "qntd_tablets": 7,
+            "nome": null
+        },
+        {
+            "calendario": "2026-08-04",
+            "checkin": "08:00:00",
+            "checkout": "10:00:00",
+            "tablets_selecionados": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "qntd_tablets": 4,
+            "nome": null
+        }
+    ],
+    "professores": [
+        {
+            "nome_completo": "Nicolas Rodrigo Zink",
+            "usuario": "nicolinhas",
+            "senha": "123456"
+        }
+    ],
+    "tablets": []
+}

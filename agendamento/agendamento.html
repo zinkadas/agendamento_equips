@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Agendador de equipamentos</title>
+</head>
+<body>
+    <header class="cabecal">
+        <img src="Colegio_assuncao_logo.png" alt="">
+        <p>O primeiro sistema feito por: Nicolas Rodrigo Zink Gonçalves dos Santos, a ideia desse codigo é para ajudar o local do meu trabalho com o problema do agendamento de salas e equipamentos</p>
+    </header>
+    <section class="agendador">
+        <h2 id="info">Horários disponíveis para o agendamento da sala de informática</h2>
+        <div class="data">
+    
+            <div>
+                <p>Dia do agendamento<input type="date" name="calendario" id="calendario" value=${}></p>
+            </div>
+            <br>
+            <div>
+                <p>Horário de entrada <input type="time" id="checkin"  min="08:00" max="18:00" value="" step="60"></p>
+            </div>
+            <br>
+            <div>
+                <p>Horário de saída <input type="time" id="checkout"  min="08:00" max="18:00" value="" step="60"></p>
+            </div>
+           
+               
+        </div>
+    </section>
+        
+    <section class="agendador">
+        <h2 id="info">Tablets disponíveis para o agendamento</h2>
+        <div class="tablets1">
+            <button type="button" class="botoes_tablet">1</button>
+            <button type="button" class="botoes_tablet">2</button>
+            <button type="button" class="botoes_tablet">3</button>
+            <button type="button" class="botoes_tablet">4</button>
+            <button type="button" class="botoes_tablet">5</button>
+            <button type="button" class="botoes_tablet">6</button>
+            <button type="button" class="botoes_tablet">7</button>
+            <button type="button" class="botoes_tablet">8</button>
+            <button type="button" class="botoes_tablet">9</button>
+        </div>
+        <div class="tablets2">
+            <button type="button" class="botoes_tablet">10</button>
+            <button type="button" class="botoes_tablet">11</button>
+            <button type="button" class="botoes_tablet">12</button>
+            <button type="button" class="botoes_tablet">13</button>
+            <button type="button" class="botoes_tablet">14</button>
+            <button type="button" class="botoes_tablet">15</button>
+            <button type="button" class="botoes_tablet">16</button>
+            <button type="button" class="botoes_tablet">17</button>
+            <button type="button" class="botoes_tablet">18</button>
+        </div>
+    </section>
+    
+    <footer class="pezes">
+        <button type="button" id="salvar">Confirmar agendamento</button>
+    </footer>
+<script src="codigo.js" defer></script>
+</body>
+</html>
+

@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    font-family: 'Myriad Pro', sans-serif;
+}
+@import url("https://typekit.net");
+
+
+#info{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.data{
+    text-align: justify;
+    background-color: rgb(206, 206, 206);
+    border-radius: 10px;
+    margin-left: 36%;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 38%;
+    justify-content: space-around
+}
+
+#aviso{
+    padding: 10px;
+}
+.pezes{
+    position: sticky;
+    bottom: 0;
+    height: 50px;
+    width: 120px;
+    padding-left: 80%;
+}
+#salvar{
+    background-color: rgb(78, 180, 78);
+}
+
+.data{
+    margin-left: 30%;
+    margin-bottom: 1%;
+    padding: 30px;
+}
+#procura{
+    margin-left: 20px;
+}
+#calendario{
+    margin-left: 20px;
+}
+#checkin{
+    margin-left: 30px;
+}
+#checkout{
+    margin-left: 45px;
+}
+
+.cabecal{
+    height: 20vh;
+    text-align: center;
+    background-color:#2285bd;
+}
+.cabecal h1{
+    color:azure;
+    padding: 20px;
+    font-size: 80px;
+}
+
+#img_log{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+.tablets1{
+    padding-left: 30%;
+}
+.tablets2{
+    padding-left: 30%;
+    padding-top: 10px;
+}
+
+
+.agendador #info{
+    text-align: center;
+    padding-bottom: 0px;
+    padding: 20px;
+}
+
+
+
+.agendador{
+    padding: 50px;
+}
+
+
+
+
+
+.botoes{
+    width: 80px;
+    height: 80px;
+    background-color: azure;
+}
+.botoes.selecionado{
+    background-color: rgb(255, 116, 116);
+}
+.botoes_tablet{
+    width: 80px;
+    height: 80px;
+    background-color: azure;
+}
+.botoes_tablet.selecionado{
+    background-color: rgb(255, 116, 116);
+}
+
