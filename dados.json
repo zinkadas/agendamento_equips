@@ -54,6 +54,14 @@
             ],
             "qntd_tablets": 4,
             "nome": null
+        },
+        {
+            "calendario": "2026-08-31",
+            "checkin": "17:41:00",
+            "checkout": "18:00:00",
+            "tablets_selecionados": [],
+            "qntd_tablets": 0,
+            "nome": null
         }
     ],
     "professores": [
