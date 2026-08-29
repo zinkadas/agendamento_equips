@@ -134,8 +134,6 @@ def certificacao(entrada: LoginUsuario):
 @app.post("/agendamento")
 def agendador(informacoes: Agendamento):
   dados = carregar_dados()
-
-  # model_dump(mode='json') converte datas e horários em texto compatível com JSON
   novo_agendamento = informacoes.model_dump(mode="json")
 
   dados["agendamentos"].append(novo_agendamento)
@@ -161,15 +159,11 @@ def painel_gerenciamento():
   dados = carregar_dados()
   return dados.get("professores", [])
 
-
-# 7. Listar Tablets
 @app.get("/lista_tablets")
 def painel_tablets():
   dados = carregar_dados()
   return dados.get("tablets", [])
 
-
-# 8. Excluir Usuário
 @app.delete("/excluir_usuario/{deletar_usuario}")
 def excluir_usuario(deletar_usuario: str):
   dados = carregar_dados()
