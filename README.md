@@ -38,10 +38,17 @@ O projeto está em fase ativa de desenvolvimento utilizando **HTML, CSS, JavaScr
 * **Consulta Rápida:** Visualização da agenda do laboratório e do inventário dos tablets para evitar choques de horários.
 
 ![Tela de login no sistema](imagens/Captura%20de%20tela%202026-08-29%20184704.png.png)
+
 ![Tela de login do usuario](imagens/Captura%20de%20tela%202026-08-29%20184743.png)
+
 ![Tela de criação do usuario](imagens/Captura%20de%20tela%202026-08-29%20184805.png)
+
 ![Tela de login do adm](imagens/Captura%20de%20tela%202026-08-29%20184851.png)
+
 ![Tela para fazer o agendamento da sala de informática e os tablets](imagens/Captura%20de%20tela%202026-08-29%20185107.png)
+
 ![Tela do painél de controle do dos adms](imagens/Captura%20de%20tela%202026-08-29%20185654.png)
+
 ![Tela do gerenciamento dos usuários](imagens/Captura%20de%20tela%202026-08-29%20190030.png)
+
 ![Tela dos tablets que foram emprestados](imagens/Captura%20de%20tela%202026-08-29%20190030.png)
